@@ -7,9 +7,11 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "postinstall": "patch-package"
   },
   "dependencies": {
+    "patch-package": "^6.5.0",
     "react": "18.0.0",
     "react-native": "0.69.6",
     "react-native-v8": "^1.5.2",
